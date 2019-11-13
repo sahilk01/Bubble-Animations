@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BubbleExample</string>
+    <string name="hi_press_the_button_to_animate_me">Hi, Press the Button to Animate Me!</string>
+    <string name="animate">Animate</string>
+</resources>
