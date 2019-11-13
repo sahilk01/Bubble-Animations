@@ -1,10 +1,13 @@
 # Bubble-Animations
 Android Library For Adding Beautiful And Performance Optimized Animations To Any View.
+Works Best with Kotlin
 
 
 [![](https://jitpack.io/v/sahilk01/Bubble-Animations.svg)](https://jitpack.io/#sahilk01/Bubble-Animations)
 
-Add it in your root build.gradle at the end of repositories:
+# Adding Usage.
+
+Step 1. Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
 		repositories {
@@ -17,3 +20,17 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.sahilk01:Bubble-Animations:Tag'
 	}
+
+
+# Using Bubble Animations
+
+Kotlin:
+
+button.bouceAnim()
+
+Java:
+
+Bubble.bouceAnim(button);
+
+# Thanks & Reach Me Out on:
+https://in.linkedin.com/in/sahil-khan-63841a16a
