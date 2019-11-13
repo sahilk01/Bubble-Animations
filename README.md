@@ -1,4 +1,4 @@
-# Bubble-Animations
+# Bubble Animations
 Android Library For Adding Beautiful And Performance Optimized Animations To Any View.
 Works Best with Kotlin
 
@@ -26,11 +26,13 @@ Step 2. Add the dependency
 
 Kotlin:
 
+	button.bounceAnim()
+
 button.bouceAnim()
 
 Java:
 
-Bubble.bouceAnim(button);
+	Bubble.bounceAnim(button)
 
 ## Thanks & Reach Me Out on:
 https://in.linkedin.com/in/sahil-khan-63841a16a
