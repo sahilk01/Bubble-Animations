@@ -32,7 +32,7 @@ button.bouceAnim()
 
 Java:
 
-	Bubble.bounceAnim(button)
+	BubbleKt.bounceAnim(button)
 
 ## Thanks & Reach Me Out on:
 https://in.linkedin.com/in/sahil-khan-63841a16a
