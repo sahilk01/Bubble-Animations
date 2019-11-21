@@ -15,824 +15,1010 @@ fun View.bounceInAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
         .playOn(this)
 }
 
-fun View.infiniteBounceInAnim() {
+@JvmOverloads
+fun View.infiniteBounceInAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.BounceIn)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.bounceAnim() {
+@JvmOverloads
+fun View.bounceAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Bounce)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteBounceAnim() {
+@JvmOverloads
+fun View.infiniteBounceAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Bounce)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-
-fun View.pulseAnim() {
+@JvmOverloads
+fun View.pulseAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Pulse)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infinitePulseAnim() {
+@JvmOverloads
+fun View.infinitePulseAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Pulse)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.tadaAnim() {
+@JvmOverloads
+fun View.tadaAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Tada)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteTadaAnim() {
+@JvmOverloads
+fun View.infiniteTadaAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Tada)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomInAnim() {
+@JvmOverloads
+fun View.zoomInAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomIn)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomInAnim() {
+@JvmOverloads
+fun View.infiniteZoomInAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomIn)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.waveAnim() {
+@JvmOverloads
+fun View.waveAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Wave)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteWaveAnim() {
+@JvmOverloads
+fun View.infiniteWaveAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Wave)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.standUpAnim() {
+@JvmOverloads
+fun View.standUpAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.StandUp)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteStandUpAnim() {
+@JvmOverloads
+fun View.infiniteStandUpAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.StandUp)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rubberbandAnim() {
+@JvmOverloads
+fun View.rubberbandAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RubberBand)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRubberbandAnim() {
+@JvmOverloads
+fun View.infiniteRubberbandAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RubberBand)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.hingeAnim() {
+@JvmOverloads
+fun View.hingeAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Hinge)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteHingeAnim() {
+@JvmOverloads
+fun View.infiniteHingeAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Hinge)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.flashAnim() {
+@JvmOverloads
+fun View.flashAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Flash)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFlashAnim() {
+@JvmOverloads
+fun View.infiniteFlashAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Flash)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.shakeAnim() {
+@JvmOverloads
+fun View.shakeAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Shake)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteShakeAnim() {
+@JvmOverloads
+fun View.infiniteShakeAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Shake)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.wobbleAnim() {
+@JvmOverloads
+fun View.wobbleAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Wobble)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteWobbleAnim() {
+@JvmOverloads
+fun View.infiniteWobbleAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Wobble)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.swingAnim() {
+@JvmOverloads
+fun View.swingAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Swing)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSwingAnim() {
+@JvmOverloads
+fun View.infiniteSwingAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Swing)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rollInAnim() {
+@JvmOverloads
+fun View.rollInAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RollIn)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRollInAnim() {
+@JvmOverloads
+fun View.infiniteRollInAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RollIn)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rollOutAnim() {
+@JvmOverloads
+fun View.rollOutAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RollOut)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRollOutAnim() {
+@JvmOverloads
+fun View.infiniteRollOutAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RollOut)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.landingAnim() {
+@JvmOverloads
+fun View.landingAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.Landing)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteLandingAnim() {
+@JvmOverloads
+fun View.infiniteLandingAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.Landing)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.takingOffAnim() {
+@JvmOverloads
+fun View.takingOffAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.TakingOff)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteTakingOffAnim() {
+@JvmOverloads
+fun View.infiniteTakingOffAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.TakingOff)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.dropoutAnim() {
+@JvmOverloads
+fun View.dropoutAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.DropOut)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteDropoutOffAnim() {
+@JvmOverloads
+fun View.infiniteDropoutOffAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.DropOut)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.bounceInDownAnim() {
+@JvmOverloads
+fun View.bounceInDownAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.BounceInDown)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteBounceInDownAnim() {
+@JvmOverloads
+fun View.infiniteBounceInDownAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.BounceInDown)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.bounceInLeftAnim() {
+@JvmOverloads
+fun View.bounceInLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.BounceInLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteBounceInLeftAnim() {
+@JvmOverloads
+fun View.infiniteBounceInLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.BounceInLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.bounceInRightAnim() {
+@JvmOverloads
+fun View.bounceInRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.BounceInRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteBounceInRightAnim() {
+@JvmOverloads
+fun View.infiniteBounceInRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.BounceInRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.bounceInUpAnim() {
+@JvmOverloads
+fun View.bounceInUpAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.BounceInUp)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteBounceInUpAnim() {
+@JvmOverloads
+fun View.infiniteBounceInUpAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.BounceInUp)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
 /*Fade Animations*/
 
-fun View.fadeInAnim() {
+@JvmOverloads
+fun View.fadeInAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeIn)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeInAnim() {
+@JvmOverloads
+fun View.infiniteFadeInAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeIn)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeInUpAnim() {
+@JvmOverloads
+fun View.fadeInUpAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeInUp)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeInUpAnim() {
+@JvmOverloads
+fun View.infiniteFadeInUpAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeInUp)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeInDownAnim() {
+@JvmOverloads
+fun View.fadeInDownAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeInDown)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeInDownAnim() {
+@JvmOverloads
+fun View.infiniteFadeInDownAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeInDown)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeInLeftAnim() {
+@JvmOverloads
+fun View.fadeInLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeInLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeInLeftAnim() {
+@JvmOverloads
+fun View.infiniteFadeInLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeInLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeInRightAnim() {
+@JvmOverloads
+fun View.fadeInRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeInRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeInRightAnim() {
+@JvmOverloads
+fun View.infiniteFadeInRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeInRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeOutAnim() {
+@JvmOverloads
+fun View.fadeOutAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeOut)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeOutAnim() {
+@JvmOverloads
+fun View.infiniteFadeOutAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeOut)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeOutDownAnim() {
+@JvmOverloads
+fun View.fadeOutDownAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeOutDown)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeOutDownAnim() {
+@JvmOverloads
+fun View.infiniteFadeOutDownAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeOutDown)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeOutLeftAnim() {
+@JvmOverloads
+fun View.fadeOutLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeOutLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeOutLeftAnim() {
+@JvmOverloads
+fun View.infiniteFadeOutLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeOutLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeOutRightAnim() {
+@JvmOverloads
+fun View.fadeOutRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeOutRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeOutRightAnim() {
+@JvmOverloads
+fun View.infiniteFadeOutRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeOutRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.fadeOutUpAnim() {
+@JvmOverloads
+fun View.fadeOutUpAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FadeOutUp)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFadeOutUpAnim() {
+@JvmOverloads
+fun View.infiniteFadeOutUpAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FadeOutUp)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
 /*Flip Animations*/
 
-fun View.flipInXAnim() {
+@JvmOverloads
+fun View.flipInXAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FlipInX)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFlipInXAnim() {
+@JvmOverloads
+fun View.infiniteFlipInXAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FlipInX)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.flipInYAnim() {
+@JvmOverloads
+fun View.flipInYAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FlipInY)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFlipInYAnim() {
+@JvmOverloads
+fun View.infiniteFlipInYAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FlipInX)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.flipOutXAnim() {
+@JvmOverloads
+fun View.flipOutXAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FlipOutX)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFlipOutXAnim() {
+@JvmOverloads
+fun View.infiniteFlipOutXAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FlipOutX)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.flipOutYAnim() {
+@JvmOverloads
+fun View.flipOutYAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.FlipOutY)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteFlipOutYAnim() {
+@JvmOverloads
+fun View.infiniteFlipOutYAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.FlipOutY)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateInAnim() {
+@JvmOverloads
+fun View.rotateInAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateIn)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateInAnim() {
+@JvmOverloads
+fun View.infiniteRotateInAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateIn)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateInDownLeftAnim() {
+@JvmOverloads
+fun View.rotateInDownLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateInDownLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateInDownLeftAnim() {
+@JvmOverloads
+fun View.infiniteRotateInDownLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateInDownLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateInDownRightAnim() {
+@JvmOverloads
+fun View.rotateInDownRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateInDownRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateInDownRightAnim() {
+@JvmOverloads
+fun View.infiniteRotateInDownRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateInDownRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateInUpLeftAnim() {
+@JvmOverloads
+fun View.rotateInUpLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateInUpLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateInUpLeftAnim() {
+@JvmOverloads
+fun View.infiniteRotateInUpLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateInUpLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateInUpRightAnim() {
+@JvmOverloads
+fun View.rotateInUpRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateInUpRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateInUpRightAnim() {
+@JvmOverloads
+fun View.infiniteRotateInUpRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateInUpRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateOutAnim() {
+@JvmOverloads
+fun View.rotateOutAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateOut)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateOutAnim() {
+@JvmOverloads
+fun View.infiniteRotateOutAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateOut)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateOutDownLeftAnim() {
+@JvmOverloads
+fun View.rotateOutDownLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateOutDownLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateOutDownLeftAnim() {
+@JvmOverloads
+fun View.infiniteRotateOutDownLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateOutDownLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateOutDownRightAnim() {
+@JvmOverloads
+fun View.rotateOutDownRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateOutDownRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateOutDownRightAnim() {
+@JvmOverloads
+fun View.infiniteRotateOutDownRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateOutDownRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateOutUpLeftAnim() {
+@JvmOverloads
+fun View.rotateOutUpLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateOutUpLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateOutUpLefttAnim() {
+@JvmOverloads
+fun View.infiniteRotateOutUpLefttAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateOutUpLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.rotateOutUpRightAnim() {
+@JvmOverloads
+fun View.rotateOutUpRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.RotateOutUpRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteRotateOutUpRightAnim() {
+@JvmOverloads
+fun View.infiniteRotateOutUpRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.RotateOutUpRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
 /*Slide Animations*/
 
-fun View.slideInLeftAnim() {
+@JvmOverloads
+fun View.slideInLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.SlideInLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSlideInLeftAnim() {
+@JvmOverloads
+fun View.infiniteSlideInLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.SlideInLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.slideInRightAnim() {
+@JvmOverloads
+fun View.slideInRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.SlideInRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSlideInRightAnim() {
+@JvmOverloads
+fun View.infiniteSlideInRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.SlideInRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.slideInUpAnim() {
+@JvmOverloads
+fun View.slideInUpAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.SlideInUp)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSlideInUpAnim() {
+@JvmOverloads
+fun View.infiniteSlideInUpAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.SlideInUp)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.slideInDownAnim() {
+@JvmOverloads
+fun View.slideInDownAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.SlideInDown)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSlideInDownAnim() {
+@JvmOverloads
+fun View.infiniteSlideInDownAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.SlideInDown)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.slideOutLeftAnim() {
+@JvmOverloads
+fun View.slideOutLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.SlideOutLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSlideOutLeftAnim() {
+@JvmOverloads
+fun View.infiniteSlideOutLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.SlideOutLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.slideOutRightAnim() {
+@JvmOverloads
+fun View.slideOutRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.SlideOutRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSlideOutRightAnim() {
+@JvmOverloads
+fun View.infiniteSlideOutRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.SlideOutRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.slideOutUpAnim() {
+@JvmOverloads
+fun View.slideOutUpAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.SlideOutUp)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSlideOutUpAnim() {
+@JvmOverloads
+fun View.infiniteSlideOutUpAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.SlideOutUp)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.slideOutDownAnim() {
+@JvmOverloads
+fun View.slideOutDownAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.SlideOutDown)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteSlideOutDownAnim() {
+@JvmOverloads
+fun View.infiniteSlideOutDownAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.SlideOutDown)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
 /*Zoom Animations*/
 
-fun View.zoomInDownAnim() {
+@JvmOverloads
+fun View.zoomInDownAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomInDown)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomInDownAnim() {
+@JvmOverloads
+fun View.infiniteZoomInDownAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomInDown)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomInLeftAnim() {
+@JvmOverloads
+fun View.zoomInLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomInLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomInLeftAnim() {
+@JvmOverloads
+fun View.infiniteZoomInLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomInLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomInRightAnim() {
+@JvmOverloads
+fun View.zoomInRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomInRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomInRightAnim() {
+@JvmOverloads
+fun View.infiniteZoomInRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomInRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomInUpAnim() {
+@JvmOverloads
+fun View.zoomInUpAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomInUp)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomInUpAnim() {
+@JvmOverloads
+fun View.infiniteZoomInUpAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomInUp)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomOutAnim() {
+@JvmOverloads
+fun View.zoomOutAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomOut)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomOutAnim() {
+@JvmOverloads
+fun View.infiniteZoomOutAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomOut)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomOutLeftAnim() {
+@JvmOverloads
+fun View.zoomOutLeftAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomOutLeft)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomOutLeftAnim() {
+@JvmOverloads
+fun View.infiniteZoomOutLeftAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomOutLeft)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomOutRightAnim() {
+@JvmOverloads
+fun View.zoomOutRightAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomOutRight)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomOutRightAnim() {
+@JvmOverloads
+fun View.infiniteZoomOutRightAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomOutRight)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomOutUpAnim() {
+@JvmOverloads
+fun View.zoomOutUpAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomOutUp)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomOutUpAnim() {
+@JvmOverloads
+fun View.infiniteZoomOutUpAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomOutUp)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
 
-fun View.zoomOutDownAnim() {
+@JvmOverloads
+fun View.zoomOutDownAnim(duration: Long = DEFAULT_DURATION, repeat: Int = 0) {
     YoYo.with(Techniques.ZoomOutDown)
-        .duration(1000)
+        .duration(duration)
+        .repeat(repeat)
         .playOn(this)
 }
 
-fun View.infiniteZoomOutDownAnim() {
+@JvmOverloads
+fun View.infiniteZoomOutDownAnim(duration: Long = DEFAULT_DURATION) {
     YoYo.with(Techniques.ZoomOutDown)
-        .repeat(YoYo.INFINITE)
-        .duration(1000)
+        .repeat(BUBBLE_INFINITE)
+        .duration(duration)
         .playOn(this)
 }
