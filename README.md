@@ -18,7 +18,7 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.sahilk01:Bubble-Animations:1.0.0'
+	        implementation 'com.github.sahilk01:Bubble-Animations:1.1.0'
 	}
 
 
@@ -36,7 +36,3 @@ Java:
 
 ## Thanks & Reach Me Out on:
 https://in.linkedin.com/in/sahil-khan-63841a16a
-<<<<<<< HEAD
-
-=======
->>>>>>> 8da1fa6fd96cd1afb1f09c8706a8643633ba3afb
